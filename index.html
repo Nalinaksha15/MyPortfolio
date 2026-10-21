@@ -1,60 +1,176 @@
+html
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-    <title>MyPortfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Personal Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Welcome to MyPortfolio</h1>
+    <!-- Header -->
+    <header>
+        <nav>
+            <h2 class="logo">My Portfolio</h2>
 
-    <h2>About Me</h2>
-    <p>Hello! My name is Nalinaksha M.</p>
-    <p>I am a college student learning web development.</p>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
 
-    <section id="education">
-        <h2>My Education</h2>
+            <a href="#contact" class="talk-button">Contact Me</a>
+        </nav>
+    </header>
 
-        <h3>College Degree</h3>
-        <p>Course: B.Sc IT</p>
-        <p>College: KG College of arts and science</p>
-        <p>Department: Information Technology</p>
+    <!-- Home Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>
+                Hi, I'm <span>Nalinaksha M</span>.<br>
+                I create thoughtful<br>
+                digital experiences<span class="dot">.</span>
+            </h1>
+
+            <p class="intro">
+                I am a student learning web development.
+                I enjoy creating simple and useful websites
+                using HTML, CSS and JavaScript.
+            </p>
+
+            <a href="#projects" class="work-button">
+                View My Work →
+            </a>
+
+        </div>
+
+        <div class="hero-design">
+            <p class="design-text">Creative Mind. Simple Design.</p>
+        </div>
 
     </section>
 
+    <!-- About Section -->
+    <section id="about" class="section">
 
-    <h2>My Skills</h2>
-    <p>HTML, CSS, JavaScript, C Programming, Python programming</p>
+        <p class="small-title">GET TO KNOW ME</p>
 
-    <h2>My Projects</h2>
-    <p>1. Dice roller game</p>
+        <h2 class="section-title">About Me</h2>
 
-    <h2>My Education</h2>
-    <p>I am currently pursuing my college degree.</p>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-
-        <p>If you want to contact me, feel free to reach out!</p>
-
-        <p>
-            <strong>Email:</strong> 25bit128@kgcas.com
+        <p class="about-text">
+            Hello! I am a college student interested in web development
+            and technology. I am learning HTML, CSS and JavaScript
+            to create attractive and user-friendly websites.
+            My goal is to improve my programming skills and build
+            useful projects.
         </p>
 
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+
+        <p class="small-title">WHAT I HAVE CREATED</p>
+
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card travel">
+
+                <div class="project-icon">JS</div>
+
+                <h3>Dice Roller Game</h3>
+
+                <p>
+                    An interactive dice game that I am developing
+                    to practise JavaScript and user interaction.
+                </p>
+
+                <span class="project-tag">
+                    HTML · CSS · JavaScript
+                </span>
+
+                <p class="project-status">
+                    Currently in progress
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+
+        <p class="small-title">MY TECHNICAL KNOWLEDGE</p>
+
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <span class="skill-symbol html-symbol">H</span>
+                <span>HTML</span>
+            </div>
+
+            <div class="skill-card">
+                <span class="skill-symbol css-symbol">C</span>
+                <span>CSS</span>
+            </div>
+
+            <div class="skill-card">
+                <span class="skill-symbol js-symbol">JS</span>
+                <span>JavaScript</span>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+
+        <p class="small-title">LET'S CONNECT</p>
+
+        <h2 class="section-title">Let's Work Together!</h2>
+
         <p>
-            <strong>GitHub:</strong>
-            <a href="https://github.com/Nalinaksha15/MyPortfolio" target="_blank">
-                Visit My GitHub
+            Thank you for visiting my portfolio.
+            Feel free to contact me or explore my GitHub projects.
+        </p>
+
+        <!-- Corrected Email Button -->
+        <a href="mailto:25bit128@kgcas.com" class="work-button">
+            Contact Me →
+        </a>
+
+        <!-- GitHub Profile -->
+        <p class="github-link">
+            <a href="https://github.com/Nalinaksha15/MyPortfolio" target="_blank" rel="noopener noreferrer">
+                Visit My GitHub Profile ↗
             </a>
         </p>
 
     </section>
 
-
-    <button onclick="showMessage()">Click Me</button>
+    <!-- Footer -->
+    <footer>
+        <p>© Nalinaksha M | Personal Portfolio</p>
+        <a href="#home">Back to Top ↑</a>
+    </footer>
 
     <script src="script.js"></script>
 
