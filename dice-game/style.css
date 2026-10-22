@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: white;
+    padding: 15px;
+}
+
+.game-box {
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(12px);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#dice {
+    font-size: 100px;
+    margin: 25px 0;
+}
+
+#dice img {
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+button {
+    border: none;
+    padding: 13px 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+}
+
+button:first-child {
+    background: #00c6ff;
+    color: white;
+}
+
+button:last-child {
+    background: #ff4b5c;
+    color: white;
+}
+
+#result {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.count {
+    margin-top: 12px;
+    font-size: 17px;
+}
+
+#dice.rolling {
+    animation: rollAnimation 0.5s ease;
+}
+
+@keyframes rollAnimation {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    50% {
+        transform: rotate(180deg) scale(1.2);
+    }
+
+    100% {
+        transform: rotate(360deg) scale(1);
+    }
+}
+
+.highest-box {
+    margin-top: 15px;
+    padding: 15px;
+    background: linear-gradient(135deg, #243b55, #141e30);
+    border: 1px solid #00c6ff;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.highest-box p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.highest-box h2 {
+    font-size: 28px;
+    color: #00c6ff;
+    margin-top: 8px;
+}
+
+.history-box {
+    margin-top: 15px;
+    padding: 15px;
+    background: linear-gradient(135deg, #243b55, #141e30);
+    border: 1px solid rgba(0, 198, 255, 0.5);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.history-heading {
+    font-size: 17px;
+    font-weight: bold;
+    color: #00c6ff;
+    margin-bottom: 10px;
+}
+
+.history-numbers {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    line-height: 1.8;
+    overflow-wrap: anywhere;
+}
+
+.stats-box {
+    margin-top: 15px;
+    padding: 15px;
+    background: linear-gradient(135deg, #302b63, #24243e);
+    border: 1px solid #a29bfe;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.stats-title {
+    font-size: 17px;
+    font-weight: bold;
+    color: #a29bfe;
+    margin-bottom: 10px;
+}
+
+#statistics {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.highest-box,
+.history-box,
+.stats-box {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#dice {
+    margin: 15px 0;
+}
