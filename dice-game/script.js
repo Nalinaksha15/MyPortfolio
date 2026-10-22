@@ -7,7 +7,7 @@ let history = [];
 let startNumber = Math.floor(Math.random() * 6) + 1;
 
 document.getElementById("dice").innerHTML =
-    '<img src="images/dice' + startNumber + '.png">';
+    '<img src="dice' + startNumber + '.png">';
 
 
 function rollDice() {
@@ -30,7 +30,7 @@ function rollDice() {
     let dice = document.getElementById("dice");
 
     dice.innerHTML =
-        '<img src="images/dice' + number + '.png">';
+        '<img src="dice' + number + '.png">';
 
     // Animation
     dice.classList.remove("rolling");
@@ -72,7 +72,7 @@ function resetGame() {
     let number = Math.floor(Math.random() * 6) + 1;
 
     document.getElementById("dice").innerHTML =
-        '<img src="images/dice' + number + '.png">';
+        '<img src="dice' + number + '.png">';
 
     document.getElementById("result").textContent =
         "Roll the dice!";
