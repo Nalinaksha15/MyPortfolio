@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game-box">
+
+        <h1>Dice Roller Game</h1>
+
+        <div id="dice"><img src="images/dice1.png"></div>
+
+        <div class="buttons">
+            <button onclick="rollDice()">Roll Dice</button>
+            <button onclick="resetGame()">Reset</button>
+        </div>
+
+        <p id="result">Roll the dice!</p>
+
+        <p class="count">Roll Count: <span id="rollCount">0</span></p>
+
+        <div class="highest-box">
+            <p>Highest Roll</p>
+            <h2 id="highestRoll">0</h2>
+        </div>
+
+        <div class="history-box">
+            <p class="history-heading">Last Rolls</p>
+            <div id="history" class="history-numbers">No rolls yet</div>
+        </div>
+
+        <div class="stats-box">
+            <p class="stats-title">Dice Statistics</p>
+            <div id="statistics">
+                1: 0 | 2: 0 | 3: 0<br>
+                4: 0 | 5: 0 | 6: 0
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
