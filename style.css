@@ -571,11 +571,17 @@ footer span {
     }
 
     .photo-frame {
-        order: 1
+        display: block;
+        width: 220px;
+        height: 260px;
+        overflow: hidden;
     }
 
     .hero-photo {
-        height: 330px
+        display: block;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
     }
 
     .content-section,
