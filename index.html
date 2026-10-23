@@ -1,164 +1,91 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nalinaksha M. | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Java project portfolio for the Warehouse Inventory Monitoring and Stock Reorder System.">
+  <title>Warehouse Inventory System | Java Project</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-```
-<header>
-    <nav class="navbar">
-        <a href="#home" class="logo">MyPortfolio<span>.</span></a>
-
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+  <header class="site-header">
+    <a class="brand" href="#home"><span class="brand-mark">W</span><span>Warehouse Inventory System<small>Inventory Monitoring and Stock Reorder Management</small></span></a>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#project">Java Project</a>
+      <a href="#resources">Resources</a>
     </nav>
-</header>
+  </header>
 
-<main>
-    <section id="home" class="hero">
-        <div class="hero-container">
-
-            <div class="hero-content">
-                <p class="welcome">WELCOME TO MY PORTFOLIO</p>
-
-                <h1>Hello, I'm <span>Nalinaksha M.</span></h1>
-                <h2>College Student &amp; Web Developer</h2>
-
-                <p>
-                    I am a college student passionate about programming
-                    and web development. I enjoy creating websites,
-                    learning new technologies and building interactive
-                    projects using HTML, CSS and JavaScript.
-                </p>
-
-                <a href="#projects" class="work-button">
-                    Visit My Work →
-                </a>
-            </div>
-
-            <div class="profile-container">
-                <img
-                    src="./profile.jpeg"
-                    alt="Nalinaksha M. profile photo"
-                    class="profile-photo"
-                >
-            </div>
-
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">JAVA PROJECT</p>
+        <h1>Warehouse Inventory Monitoring and Stock Reorder System</h1>
+        <p class="intro">A Java-based application to manage warehouse products, monitor stock quantities, issue products, and identify items that need to be reordered.</p>
+        <div class="actions">
+          <a class="button button-primary" href="https://github.com/Nalinaksha15/MyPortfolio/blob/main/InventorySystem.java" target="_blank" rel="noopener noreferrer">◉ &nbsp; View GitHub ↗</a>
+          <a class="button button-outline" href="#project">Explore Project &nbsp; ›</a>
         </div>
-    </section>
-
-    <section id="about" class="section">
-        <h2>About <span>Me</span></h2>
-
-        <p>
-            Hello! My name is Nalinaksha M. I am a college student
-            interested in programming, technology and web development.
-            I enjoy exploring new ideas and improving my technical
-            knowledge by creating practical projects. My goal is to
-            develop useful, attractive and user-friendly applications
-            while continuing to learn new skills.
-        </p>
-    </section>
-
-    <section id="skills" class="section">
-        <h2>My <span>Skills</span></h2>
-
-        <div class="skills-list">
-            <div class="skill-card">HTML</div>
-            <div class="skill-card">CSS</div>
-            <div class="skill-card">JavaScript</div>
-            <div class="skill-card">C Programming</div>
-            <div class="skill-card">Python</div>
+      </div>
+      <div class="hero-side">
+        <div class="dashboard">
+          <div class="cube-icon">◇</div>
+          <h2>Inventory Dashboard</h2>
+          <div class="dashboard-row"><span class="number">01</span><span>Product Management</span></div>
+          <div class="dashboard-row"><span class="number">02</span><span>Stock Monitoring</span></div>
+          <div class="dashboard-row"><span class="number">03</span><span>Reorder Alerts</span></div>
         </div>
+        <div class="photo-frame"><img class="hero-photo" src="profile-photo.jpg" 		alt="Portfolio owner"></div>
     </section>
 
-    <section id="projects" class="section">
-        <h2>My <span>Projects</span></h2>
+    <section class="content-section" id="about">
+      <div class="about-copy">
+        <p class="eyebrow">01 / OVERVIEW</p>
+        <h2>About My Project</h2>
+        <p>This project is developed using Java to simplify warehouse inventory management. Users can add products, display available products, issue products and check whether any product has fallen below its minimum stock level.</p>
+      </div>
+      <div class="about-stats">
+        <article class="mini-card"><span class="mini-icon blue">☕</span><h3>Language</h3><p>Core Java</p></article>
+        <article class="mini-card"><span class="mini-icon green">▤</span><h3>Application</h3><p>Console-based system</p></article>
+        <article class="mini-card"><span class="mini-icon purple">↗</span><h3>Main goal</h3><p>Track stock and identify reorder needs</p></article>
+      </div>
+    </section>
 
-        <p class="section-intro">
-            Explore my projects and visit their GitHub repository
-            to learn more about the code and implementation.
-        </p>
+    <section class="section" id="features">
+      <div class="section-heading"><p class="eyebrow">02 / CAPABILITIES</p><h2>Project Features</h2></div>
+      <div class="feature-grid">
+        <article class="feature-card"><span class="feature-symbol blue">＋</span><h3>Add Products</h3><p>Enter product ID, name, quantity and minimum stock level.</p></article>
+        <article class="feature-card"><span class="feature-symbol green">▤</span><h3>View Products</h3><p>Display the products available in the warehouse.</p></article>
+        <article class="feature-card"><span class="feature-symbol purple">⇢</span><h3>Issue Products</h3><p>Reduce stock quantity when products are issued.</p></article>
+        <article class="feature-card"><span class="feature-symbol orange">⚠</span><h3>Stock Reorder Check</h3><p>Identify products that fall below their minimum stock level.</p></article>
+      </div>
+    </section>
 
-        <div class="project-list">
-
-            <article class="project-card">
-                <h3>🎲 Dice Roller Game</h3>
-
-                <p>
-                    An interactive dice rolling game created using
-                    HTML, CSS and JavaScript. Click to roll the dice
-                    and enjoy a simple game experience.
-                </p>
-
-                <div class="project-actions">
-                    <a
-                        href="https://github.com/Nalinaksha15/MyPortfolio/tree/main/dice-game"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="project-button"
-                    >
-                        View GitHub →
-                    </a>
-
-                    <a
-                        href="./dice-game/index.html"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="work-button"
-                    >
-                        Play Game →
-                    </a>
-                </div>
-            </article>
-
+    <section class="section project-section" id="project">
+      <div class="section-heading"><p class="eyebrow">03 / MY WORK</p><h2>Warehouse Inventory Monitoring and Stock Reorder System</h2></div>
+      <div class="project-banner">
+        <div class="project-description"><span class="pill">CORE JAVA</span><h3>Inventory Management Application</h3><p>Developed using Java classes, objects, ArrayList, Scanner and conditional statements.</p><p class="language"><strong>Programming Language:</strong> Java</p></div>
+        <div class="project-actions">
+          <a class="button button-primary" href="https://github.com/Nalinaksha15/MyPortfolio/blob/main/InventorySystem.java" target="_blank" rel="noopener noreferrer">◉ &nbsp; View GitHub ↗</a>
+          <a class="button button-outline" href="output.html">▷ &nbsp; View Output</a>
+          <a class="button button-outline" href="Nalinaksha.M_25BIT128.pdf" target="_blank" rel="noopener noreferrer">▤ &nbsp; Documentation</a>
         </div>
+      </div>
     </section>
 
-    <section id="education" class="section">
-        <h2>My <span>Education</span></h2>
-
-        <p>
-            I am currently pursuing my college degree and developing
-            my technical skills through learning and practical projects.
-        </p>
+    <section class="section resources-section" id="resources">
+      <div class="section-heading"><p class="eyebrow">04 / PROJECT RESOURCES</p><h2>Explore Project Resources</h2></div>
+      <div class="resource-grid">
+        <article class="resource-card"><span class="resource-icon">&lt;/&gt;</span><h3>Java Source Code</h3><p>Open the InventorySystem.java file in your GitHub repository.</p><a class="text-link" href="https://github.com/Nalinaksha15/MyPortfolio/blob/main/InventorySystem.java" target="_blank" rel="noopener noreferrer">View GitHub code ↗</a></article>
+        <article class="resource-card"><span class="resource-icon green-bg">▷</span><h3>Sample Output</h3><p>See an example of the Java console menu and inventory operations.</p><a class="text-link" href="output.html">View output page →</a></article>
+        <article class="resource-card"><span class="resource-icon purple-bg">PDF</span><h3>Documentation</h3><p>Read the project report and supporting documentation.</p><a class="text-link" href="Nalinaksha.M_25BIT128.pdf" target="_blank" rel="noopener noreferrer">Open documentation ↗</a></article>
+      </div>
     </section>
+  </main>
 
-    <section id="contact" class="section">
-        <h2>Contact <span>Me</span></h2>
-
-        <p>
-            If you would like to connect with me, you can reach me
-            through my email.
-        </p>
-
-        <a class="contact-link" href="mailto:25bit128@kgcas.com">
-            25bit128@kgcas.com
-        </a>
-    </section>
-</main>
-
-<footer>
-    <p>© 2026 Nalinaksha M. All Rights Reserved.</p>
-    <a href="https://github.com/Nalinaksha15/MyPortfolio"
-       target="_blank" rel="noopener noreferrer">
-        GitHub Repository
-    </a>
-</footer>
-
-<script src="script.js"></script>
-```
-
+  <footer><strong>Warehouse Inventory Monitoring and Stock Reorder System</strong><span>Built with Java, HTML and CSS · No JavaScript</span></footer>
 </body>
 </html>
