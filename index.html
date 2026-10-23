@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyPortfolio</title>
+    <title>Nalinaksha M. | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <header>
-        <nav>
-            <h2 class="logo">MyPortfolio<span></span></h2>
+```
+<header>
+    <nav class="navbar">
+        <a href="#home" class="logo">MyPortfolio<span>.</span></a>
 
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
+<main>
     <section id="home" class="hero">
         <div class="hero-container">
 
@@ -32,34 +33,41 @@
                 <p class="welcome">WELCOME TO MY PORTFOLIO</p>
 
                 <h1>Hello, I'm <span>Nalinaksha M.</span></h1>
-
-                <h2>College Student & Web Developer</h2>
+                <h2>College Student &amp; Web Developer</h2>
 
                 <p>
-                    I am a college student learning web development.
-                    I enjoy creating websites and interactive projects
-                    using HTML, CSS and JavaScript.
+                    I am a college student passionate about programming
+                    and web development. I enjoy creating websites,
+                    learning new technologies and building interactive
+                    projects using HTML, CSS and JavaScript.
                 </p>
 
-                <a href="#projects" class="work-button">Visit My Work →</a>
+                <a href="#projects" class="work-button">
+                    Visit My Work →
+                </a>
             </div>
 
             <div class="profile-container">
-                <img src="./profile.jpeg" alt="My Profile Photo" class="profile-photo">
+                <img
+                    src="./profile.jpeg"
+                    alt="Nalinaksha M. profile photo"
+                    class="profile-photo"
+                >
             </div>
 
         </div>
-
     </section>
-
 
     <section id="about" class="section">
         <h2>About <span>Me</span></h2>
+
         <p>
-            Hello! My name is Nalinaksha M.
-            I am a college student interested in programming
-            and web development. I am learning new technologies
-            to improve my skills.
+            Hello! My name is Nalinaksha M. I am a college student
+            interested in programming, technology and web development.
+            I enjoy exploring new ideas and improving my technical
+            knowledge by creating practical projects. My goal is to
+            develop useful, attractive and user-friendly applications
+            while continuing to learn new skills.
         </p>
     </section>
 
@@ -78,39 +86,117 @@
     <section id="projects" class="section">
         <h2>My <span>Projects</span></h2>
 
+        <p class="section-intro">
+            Explore my projects and visit their GitHub repository
+            to learn more about the code and implementation.
+        </p>
+
         <div class="project-list">
 
-            <div class="project-card">
+            <article class="project-card">
                 <h3>🎲 Dice Roller Game</h3>
+
                 <p>
-                    Play my interactive Dice Roller Game
-                    and test your luck!
+                    An interactive dice rolling game created using
+                    HTML, CSS and JavaScript. Click to roll the dice
+                    and enjoy a simple game experience.
                 </p>
 
-                <a href="dice-game/index.html" class="work-button" target="_blank">
-                    Play Game →
-                </a>
-            </div>
+                <div class="project-actions">
+                    <a
+                        href="https://github.com/Nalinaksha15/MyPortfolio/tree/main/dice-game"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-button"
+                    >
+                        View GitHub →
+                    </a>
+
+                    <a
+                        href="./dice-game/index.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="work-button"
+                    >
+                        Play Game →
+                    </a>
+                </div>
+            </article>
+
+            <a
+                class="project-card project-link"
+                href="https://github.com/Nalinaksha15/MyPortfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View Calculator project section in GitHub repository"
+            >
+                <h3>🧮 Calculator</h3>
+
+                <p>
+                    A calculator project concept for performing basic
+                    mathematical operations. The interface and logic
+                    can be developed using HTML, CSS and JavaScript.
+                </p>
+
+                <span class="project-tag">HTML · CSS · JavaScript</span>
+                <span class="project-button">View GitHub →</span>
+            </a>
+
+            <a
+                class="project-card project-link"
+                href="https://github.com/Nalinaksha15/MyPortfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View Word and Character Counter project section in GitHub repository"
+            >
+                <h3>📝 Word &amp; Character Counter</h3>
+
+                <p>
+                    A text counter project concept that can count words
+                    and characters while a user types. JavaScript can
+                    update the count instantly.
+                </p>
+
+                <span class="project-tag">HTML · CSS · JavaScript</span>
+                <span class="project-button">View GitHub →</span>
+            </a>
 
         </div>
     </section>
 
     <section id="education" class="section">
         <h2>My <span>Education</span></h2>
-        <p>I am currently pursuing my college degree.</p>
+
+        <p>
+            I am currently pursuing my college degree and developing
+            my technical skills through learning and practical projects.
+        </p>
     </section>
 
     <section id="contact" class="section">
         <h2>Contact <span>Me</span></h2>
-        <p>Email: 25bit128@kgcas.com</p>
+
+        <p>
+            If you would like to connect with me, you can reach me
+            through my email.
+        </p>
+
+        <a class="contact-link" href="mailto:25bit128@kgcas.com">
+            25bit128@kgcas.com
+        </a>
     </section>
+</main>
 
-    <footer>
-        <p>© 2026 Nalinaksha M. All Rights Reserved.</p>
-    </footer>
+<footer>
+    <p>© 2026 Nalinaksha M. All Rights Reserved.</p>
+    <a href="https://github.com/Nalinaksha15/MyPortfolio"
+       target="_blank" rel="noopener noreferrer">
+        GitHub Repository
+    </a>
+</footer>
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
+```
 
 </body>
-
 </html>
