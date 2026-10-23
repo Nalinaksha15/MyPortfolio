@@ -324,8 +324,6 @@ footer a {
 
 }
 
-```css
-
 /* Orange background theme */
 body {
     background-color: #ff8c00;
@@ -371,5 +369,15 @@ footer p {
 .profile-photo {
     border-color: white;
 }
+/* Center the Dice Roller project */
+#projects .projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-```
+#projects .project-card {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
