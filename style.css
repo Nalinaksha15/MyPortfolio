@@ -369,6 +369,7 @@ footer p {
 .profile-photo {
     border-color: white;
 }
+
 /* Center the Dice Roller project */
 #projects .projects-container {
     display: flex;
@@ -381,6 +382,7 @@ footer p {
     max-width: 400px;
     text-align: center;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -752,6 +754,7 @@ footer p {
 .profile-photo {
     border-color: white;
 }
+
 /* Center the Dice Roller project */
 #projects .projects-container {
     display: flex;
@@ -763,4 +766,109 @@ footer p {
     width: 100%;
     max-width: 400px;
     text-align: center;
+}
+```css
+/* Professional multi-colour portfolio theme */
+html,
+body {
+    background-color: #fffaf3 !important;
+    color: #333333;
+}
+
+header,
+footer {
+    background-color: #ffffff;
+    border-color: #e5e7eb;
+}
+
+.logo span,
+.hero-content h1 span,
+.welcome,
+.contact-link,
+footer a {
+    color: #f97316;
+}
+
+.section h2 {
+    color: #1e3a8a;
+}
+
+.section h2 span {
+    color: #f97316;
+}
+
+.hero-content h1,
+.hero-content h2,
+.hero-content p,
+.section p,
+.nav-links a,
+.logo,
+footer p {
+    color: #333333;
+}
+
+.nav-links a:hover {
+    color: #f97316;
+}
+
+.skill-card,
+.project-card {
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+}
+
+.skill-card:nth-child(3n + 1) {
+    border-top: 4px solid #60a5fa;
+}
+
+.skill-card:nth-child(3n + 2) {
+    border-top: 4px solid #4ade80;
+}
+
+.skill-card:nth-child(3n) {
+    border-top: 4px solid #c084fc;
+}
+
+.project-card {
+    border-top: 4px solid #f97316;
+}
+
+.project-card h3,
+.project-card p,
+.skill-card h3 {
+    color: #333333;
+}
+
+.project-tag {
+    background-color: #fff0df;
+    color: #c2410c;
+}
+
+.work-button,
+.project-button {
+    background-color: #f97316;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+.work-button:hover,
+.project-button:hover {
+    background-color: #c2410c;
+    color: #ffffff;
+}
+
+.skill-card:hover,
+.project-card:hover {
+    border-color: #f97316;
+}
+
+.profile-photo {
+    border-color: #f97316;
+}
+
+.contact-link:hover,
+footer a:hover {
+    color: #c2410c;
 }
