@@ -872,3 +872,17 @@ footer p {
 footer a:hover {
     color: #c2410c;
 }
+/* Center the Dice Roller Game card */
+#projects .projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#projects .project-card {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
