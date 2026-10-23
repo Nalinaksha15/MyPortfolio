@@ -269,8 +269,7 @@ color: #38bdf8;
 padding: 18px 0;
 flex-direction: column;
 }
-
-```
+  
 .nav-links {
     gap: 14px;
 }
@@ -282,16 +281,13 @@ flex-direction: column;
 .hero-container {
     gap: 30px;
 }
-```
-
+  
 }
 
 @media (max-width: 650px) {
 .hero {
 padding: 45px 0;
 }
-
-```
 .hero-container {
     flex-direction: column-reverse;
     text-align: center;
@@ -324,6 +320,5 @@ padding: 45px 0;
     padding-top: 50px;
     padding-bottom: 50px;
 }
-```
 
 }
